@@ -1,12 +1,12 @@
-# Information Retrieval for Common Attack Pattern Enumeration and Classification
+# Information Retrieval for Common Attack Pattern Enumeration and Classification -
 In this lesson, you will learn learn how to build a basic information retrieval app to search for common attack patterns found on the MITRE CAPEC database. Through this lesson, you will learn about attack patterns employed by adversaries, and natural language processing fundamentals.
 
-# HackerGirl Skills Learned
+## HackerGirl Skills Learned
 * Security: Commmon Attack Patterns
 * Machine Learning: Natural Language Processing (NLP) and Information Retrieval (IR)
 * Coding: Web Development with Python
 
-# Background
+## Background
 **CAPEC:**
 * Understanding how the adversary operates is essential to effective cyber security. CAPEC™ provides a publicly available catalog of common attack patterns that helps users understand how adversaries exploit weaknesses in applications and other cyber-enabled capabilities. It can be used by analysts, developers, testers, and educators to advance community understanding and enhance defenses. 
 * "Attack Patterns" are descriptions of the common attributes and approaches employed by adversaries to exploit known weaknesses in cyber-enabled capabilities. Attack patterns define the challenges that an adversary may face and how they go about solving it. They derive from the concept of design patterns applied in a destructive rather than constructive context and are generated from in-depth analysis of specific real-world exploit examples. Attack patterns help those developing applications, or administrating cyber-enabled capabilities to better understand the specific elements of an attack and how to stop them from succeeding.
@@ -44,9 +44,9 @@ In this lesson, you will learn learn how to build a basic information retrieval 
 * Depending on your objective, there are a variety of document similarity measures you may choose from. For this project, we will use cosine distance, but I encourage you to check out [Jaccard distance](https://www.statisticshowto.datasciencecentral.com/jaccard-index/) and [Euclidean distance](http://rosalind.info/glossary/euclidean-distance/) as well. 
 * *Cosine similarity* computes the dot product for normalized vectors. Our document corpus is represented as a *D x V* matrix, and our query document is represented as a *1 x V* matrix, so we can find the cosine similarity between the query document and each document in our corpus to find which documents match our query! See *Document 1* for a visual representation of cosine similarity. 
 
-# Project Directions:
+## Project Directions:
 
-## Steps:
+### Steps:
 1. Download ```3000.csv``` from [CAPEC](https://capec.mitre.org/data/definitions/3000.html)
 2. Create a web app using Flask (or a micro-framework of your choice). Create routes and html templates for a home page and a search results page. Check out the source code, [Flask Quickstart](http://flask.pocoo.org/docs/1.0/quickstart/), or [Getting Started Tutorial](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13) to get started.
 3. Create a form on your home page where a user can submit a search query
