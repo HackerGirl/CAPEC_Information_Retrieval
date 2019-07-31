@@ -1,0 +1,66 @@
+body{
+	font:15px/1.5 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, monospace; 
+	padding: 0px;
+	background-color:#fff;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	position: relative;
+	background: #9e2118;
+	border-bottom:#8c1d15 3px solid;
+	border-right:#8c1d15 3px solid;
+	border-left:#8c1d15 3px solid;
+	border-top:#8c1d15 3px solid;
+	height:120px;
+	width:100%;
+	padding-top:30px;
+}
+
+
+.app-name{
+	color: #fff;
+	margin: 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, monospace; 
+	font-size: 30px; font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 75px; 
+	text-align: center;
+	vertical-align: center
+}
+
+header h2{
+	text-align:center;
+	color:#fff;
+
+}
+
+.results{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, monospace; 
+	font-size:20;
+	color:#f4f3f3;
+}
+
+.btn-info {
+	background-color: #9e2118;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, monospace; 
+	color:#f4f3f3;
+	height:30px;
+	width:80px;
+} 
+.btn-info:hover {background: #8c1d15;}
+
+
+.results{
+	border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}
