@@ -2,14 +2,14 @@
 In this lesson, you will learn learn how to build a basic information retrieval app to search for common attack patterns found on the MITRE CAPEC database. Through this lesson, you will learn about attack patterns employed by adversaries, and natural language processing fundamentals.
 
 ### HackerGirl Skills Learned
-* Security: Commmon Attack Patterns
-* Machine Learning: Natural Language Processing (NLP) and Information Retrieval (IR)
+* Security: Become familar with common attack patterns used by adversaries
+* Machine Learning: Learn modern Machine Learning techniques: Natural Language Processing (NLP) and Information Retrieval (IR)
 * Coding: Web Development with Python
 
 ## Background
 **CAPEC:**
-* Understanding how the adversary operates is essential to effective cyber security. [CAPEC™](https://capec.mitre.org/) provides a publicly available catalog of common attack patterns that helps users understand how adversaries exploit weaknesses in applications and other cyber-enabled capabilities. It can be used by analysts, developers, testers, and educators to advance community understanding and enhance defenses. 
-* "Attack Patterns" are descriptions of the common attributes and approaches employed by adversaries to exploit known weaknesses in cyber-enabled capabilities. Attack patterns define the challenges that an adversary may face and how they go about solving it. They derive from the concept of design patterns applied in a destructive rather than constructive context and are generated from in-depth analysis of specific real-world exploit examples. Attack patterns help those developing applications, or administrating cyber-enabled capabilities to better understand the specific elements of an attack and how to stop them from succeeding.
+* Understanding how an adversary operates is essential to an effective cyber security engineer. [CAPEC™](https://capec.mitre.org/) provides a publicly available catalog of common attack patterns that helps users understand how adversaries exploit weaknesses in applications and other cyber-enabled capabilities. CAPEC™ is used by analysts, developers, testers, and educators to advance community understanding of exploits and enhance security defenses against exploits. 
+* "Attack Patterns" are descriptions of the common attributes and approaches employed by adversaries to exploit known weaknesses in cyber-enabled capabilities. Attack patterns define the challenges that an adversary may face and how they go about solving it. Attack Patterns are derviced from analyizing patterns in real-world exploits and help those developing applications, or administrating cyber-enabled capabilities to better understand the specific elements of an attack and how to stop them from succeeding.
 
 **Information Retrieval:**
 * Information Retrieval is the task of gathering resources that are revelant to a user's information needs. We use NLP to process documents and extract information. IR is used everywhere - from question/answering systems to information routing and filtering to IBM Watson on Jeopardy! 
