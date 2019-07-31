@@ -8,7 +8,7 @@ In this lesson, you will learn learn how to build a basic information retrieval 
 
 ## Background
 **CAPEC:**
-* Understanding how the adversary operates is essential to effective cyber security. CAPEC™ provides a publicly available catalog of common attack patterns that helps users understand how adversaries exploit weaknesses in applications and other cyber-enabled capabilities. It can be used by analysts, developers, testers, and educators to advance community understanding and enhance defenses. 
+* Understanding how the adversary operates is essential to effective cyber security. [CAPEC™](https://capec.mitre.org/) provides a publicly available catalog of common attack patterns that helps users understand how adversaries exploit weaknesses in applications and other cyber-enabled capabilities. It can be used by analysts, developers, testers, and educators to advance community understanding and enhance defenses. 
 * "Attack Patterns" are descriptions of the common attributes and approaches employed by adversaries to exploit known weaknesses in cyber-enabled capabilities. Attack patterns define the challenges that an adversary may face and how they go about solving it. They derive from the concept of design patterns applied in a destructive rather than constructive context and are generated from in-depth analysis of specific real-world exploit examples. Attack patterns help those developing applications, or administrating cyber-enabled capabilities to better understand the specific elements of an attack and how to stop them from succeeding.
 
 **Information Retrieval:**
