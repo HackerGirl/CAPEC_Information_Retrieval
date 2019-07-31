@@ -1,7 +1,7 @@
 # Information Retrieval for Common Attack Pattern Enumeration and Classification -
 In this lesson, you will learn learn how to build a basic information retrieval app to search for common attack patterns found on the MITRE CAPEC database. Through this lesson, you will learn about attack patterns employed by adversaries, and natural language processing fundamentals.
 
-## HackerGirl Skills Learned
+### HackerGirl Skills Learned
 * Security: Commmon Attack Patterns
 * Machine Learning: Natural Language Processing (NLP) and Information Retrieval (IR)
 * Coding: Web Development with Python
