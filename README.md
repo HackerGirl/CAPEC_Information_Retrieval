@@ -17,7 +17,7 @@ In this lesson, you will learn learn how to build a basic information retrieval 
 * There are many different design decisions that comprise an information retrieval system. Two key factors are *document representation* and *document similarity*. 
 
 
-# Document Representation and Similarity
+## Document Representation and Similarity
 
 **Vector Space Model**
 * How the heck do we teach computers to understand human language in documents?! There are many methods that draw from the *vector space model*, which represents queries and documents as vectors in a common vector space.
