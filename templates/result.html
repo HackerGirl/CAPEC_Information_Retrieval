@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="center">
+					<div class="app-name">
+						CAPEC Search Engine
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<div class="app-name" style="color:black"><b>Results</b></div>
+		{% for document in results %}
+			<li><a href="{{document.url}}">{{document.title}}</a> ({{document.score}})</li>
+    	{% endfor %}
+	</body>
+</html>
