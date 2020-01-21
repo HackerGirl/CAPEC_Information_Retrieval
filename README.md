@@ -53,7 +53,7 @@ In this lesson, you will learn learn how to build a basic information retrieval 
 4. Load the ```3000.csv``` file and save relevant data. I used *description* to train the TFIDF model, *id* to build a url to CAPEC's online database, and *title* to share with users on the results page. 
 5. Implement TFIDF using Scikit-learn or Gensim - or build your own vectorizer from scratch!
 6. Compute document similarity between your TFIDF-transformed document matrix and query document
-7. Return relevant documents by returning the top-n similar documents, some minimum threshold score, or a combination of both. In the source code, we return the top 3 documents and use a minimum threshold score of 0.1
+7. Return relevant documents by returning the top-n similar documents, some minimum threshold score, or a combination of both. In the source code, we return the top 3 documents and use a minimum threshold score of 0.1.
 
 
 
