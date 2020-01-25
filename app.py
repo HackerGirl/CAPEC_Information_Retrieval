@@ -52,7 +52,3 @@ def predict():
 
 	if __name__ == '__main__':
 		app.run(debug=True)
-
-
-# Answer the Riddle to Unlock the Flag: Who is a Computer's Favorite Singer? 
-# Flag Format {character_word}
