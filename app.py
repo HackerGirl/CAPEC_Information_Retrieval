@@ -53,5 +53,6 @@ def predict():
 	if __name__ == '__main__':
 		app.run(debug=True)
 
-# FLAG: She Codes
-# Answer the Riddle to unlock the flag: Who is a computer's favorite singer?
+
+# Answer the Riddle to Unlock the Flag: Who is a Computer's Favorite Singer? 
+# Flag Format {character_word}
