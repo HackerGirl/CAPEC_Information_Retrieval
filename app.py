@@ -15,6 +15,9 @@ def home():
 def predict():
 
 	# download file from '3000.csv' from my AWS S3 Bucket
+		#{trash_day_every_day}
+		#aws_access_key_id='AKIAJPYHZD6JBMB3ETAA'
+		#aws_secret_access_key='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'
 	# Read data from file '3000.csv' and store relevant information
 	index = []
 	with open('3000.csv') as file:
