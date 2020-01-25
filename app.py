@@ -16,8 +16,8 @@ def predict():
 
 	# download file from bucket
 		#{trash_day_every_day}
-		#aws_access_key_id='AKIAJPYHZD6JBMB3ETAA'
-		#aws_secret_access_key='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'
+		#aws_access_key_id='AKIAQ7ANRZV2OO4GFPAR'
+		#aws_secret_access_key='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'
 	# Read data from file '3000.csv' and store relevant information
 	index = []
 	with open('3000.csv') as file:
