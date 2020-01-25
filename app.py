@@ -14,7 +14,7 @@ def home():
 @app.route('/predict',methods=['POST'])
 def predict():
 
-	# download file from '3000.csv' from my AWS S3 Bucket
+	# download file from database
 	# Read data from file '3000.csv' and store relevant information
 	index = []
 	with open('3000.csv') as file:
