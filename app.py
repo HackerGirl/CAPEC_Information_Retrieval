@@ -14,7 +14,7 @@ def home():
 @app.route('/predict',methods=['POST'])
 def predict():
 
-	# download file from database
+	# download file from bucket
 		#{trash_day_every_day}
 		#aws_access_key_id='AKIAJPYHZD6JBMB3ETAA'
 		#aws_secret_access_key='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'
